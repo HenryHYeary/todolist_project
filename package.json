@@ -7,14 +7,9 @@
     "lib": "lib",
     "test": "test"
   },
-  "dependencies": {
-    "express": "4",
-    "http-errors": "1",
-    "lodash": "^4.17.21",
-    "morgan": "1.9"
-  },
+  "dependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "babel": "babel lib --out-dir dist --presets=@babel/preset-env"
   },
   "repository": {
     "type": "git",
@@ -27,8 +22,10 @@
   },
   "homepage": "https://github.com/HenryHYeary/todolist_project#readme",
   "devDependencies": {
+    "@babel/cli": "^7.20.7",
     "@babel/core": "^7.20.7",
     "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.12.1",
     "eslint-cli": "^1.1.1"
